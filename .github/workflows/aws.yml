@@ -35,12 +35,12 @@ env:
   AWS_ACCESS_KEY_ID: AKIASJCMVIPGKTBDEHHM
   AWS_SECRET_ACCESS_KEY: 8oGPIK6frNPFbuy+VVQsHYqvXBrj5Je1Je5Si3NT
   AWS_REGION: ap-south-1                   # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: MY_ECR_REPOSITORY           # set this to your Amazon ECR repository name
-  ECS_SERVICE: MY_ECS_SERVICE                 # set this to your Amazon ECS service name
-  ECS_CLUSTER: MY_ECS_CLUSTER                 # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: MY_ECS_TASK_DEFINITION # set this to the path to your Amazon ECS task definition
+  ECR_REPOSITORY: rs-repo           # set this to your Amazon ECR repository name
+  ECS_SERVICE: rs-ecs                 # set this to your Amazon ECS service name
+  ECS_CLUSTER: rs-cluster                 # set this to your Amazon ECS cluster name
+  ECS_TASK_DEFINITION: .aws/docker-compose.prod.yml # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
-  CONTAINER_NAME: MY_CONTAINER_NAME           # set this to the name of the container in the
+  CONTAINER_NAME: app_prod           # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
 
 jobs:
