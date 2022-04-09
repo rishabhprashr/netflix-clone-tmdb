@@ -8,8 +8,7 @@ import Nav from "./../Navbar";
 function index() {
   return (
     <div className="app">
-//       <Nav />
-//       <Banner />
+
       <Row
         isLargeRow={true}
         title="Netflix Originals"
