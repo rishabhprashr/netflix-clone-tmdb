@@ -8,7 +8,7 @@ import Nav from "./../Navbar";
 function index() {
   return (
     <div className="app">
-      <Nav />
+//       <Nav />
 //       <Banner />
       <Row
         isLargeRow={true}
