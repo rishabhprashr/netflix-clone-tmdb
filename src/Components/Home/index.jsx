@@ -9,7 +9,7 @@ function index() {
   return (
     <div className="app">
       <Nav/>
-//       <Banner/>
+
 
       <Row
         isLargeRow={true}
